@@ -4,3 +4,16 @@
 
         <!-- Custom styles for this template -->
         <link href="<?php echo base_url() ?>assets/visitor/css/main-style.css" rel="stylesheet">
+
+    <!-- Additional Stylesheet -->
+        <?php 
+            switch ($assets){
+                case (in_array('timeline', $assets)):
+                    echo "<!-- Custom styles for this template -->
+                    <link href='".base_url()."assets/extra/timeline/timeline.css' rel='stylesheet'> \n";
+                    break;
+                default:
+                    echo '';
+                    break;
+            }
+        ?>

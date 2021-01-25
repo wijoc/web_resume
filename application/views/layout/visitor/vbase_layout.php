@@ -23,7 +23,7 @@
         <?php if($navbar){ echo $navbar; } ?>
 
         <!-- Page Content -->
-        <section class="section-wrapper">
+        <section class="wrapper mb-5">
             <div class="container">
                 <!-- Content -->
                 <?php if($content){ echo $content; } ?>

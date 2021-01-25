@@ -1,4 +1,3 @@
-
         <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-bottom">
             <div class="container">
                 <a class="navbar-brand border border-dark pl-2 pr-2" href="#">Joe Wicaksono</a>
@@ -11,13 +10,16 @@
                             <a class="nav-link" href="<?php echo site_url('Visitor_c') ?>">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?php echo site_url('Visitor_c/pageAbout') ?>">Portfolio</a>
+                            <a class="nav-link" href="<?php echo site_url('Visitor_c/pageAbout') ?>">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?php echo site_url('Visitor_c/pagePortfolio') ?>">Portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="<?php echo site_url('Visitor_c/pageExperience') ?>">Pengalaman</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?php echo site_url('Visitor_c/pageContact') ?>">Kontak</a>
+                            <a class="nav-link" href="<?php echo site_url('Visitor_c/pageMessage') ?>">Tinggalkan Pesan</a>
                         </li>
                     </ul>
                 </div>
